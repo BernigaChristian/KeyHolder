@@ -14,7 +14,7 @@ public class Main {
             Key customer1= keys.enter(1);
             keys.exit(customer1);
             customer1=keys.enter("Giorgio");
-        } catch(EntryException| OwnerMissMatchException| FullKeyHolderException| OwnersRoomNotFoundException|ArrayIndexOutOfBoundsException e) {
+        } catch(EntryException| FullKeyHolderException| OwnersRoomNotFoundException|ArrayIndexOutOfBoundsException e) {
             System.out.println(e.toString());}
         System.out.println(keys);
     }
